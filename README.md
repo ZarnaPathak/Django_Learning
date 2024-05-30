@@ -28,3 +28,10 @@
 
   ![image](https://github.com/ZarnaPathak/Django_Learning/assets/112220757/496e0495-b7e8-406c-aa86-43f2ce894c27)
   
+  ## views.py
+    This file contains function of any particular action on the webpage, it recieves request, processes it on particular function and returns web responce
+  ## urls.py
+    This file is created by user manually to map URLS in the views.py.
+    It defines URL patterns and associates each pattern with a specific view, determining which code runs when a particular URL is visited. 
+    The URLs created in every App are routed to **mainProject/urls.py** for defining url patterns of the entire Project, which links different app URL configurations to the main project's URL 
+    structure.
