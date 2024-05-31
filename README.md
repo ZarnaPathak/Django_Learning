@@ -35,3 +35,6 @@
     It defines URL patterns and associates each pattern with a specific view, determining which code runs when a particular URL is visited. 
     The URLs created in every App are routed to **mainProject/urls.py** for defining url patterns of the entire Project, which links different app URL configurations to the main project's URL 
     structure.
+
+## Django Templates
+  It is used to return HTML content to the user. These are the files that used to define web pages and structure in a Django aaplication. It allow us to insert dynamic content (like data from   the database) into HTML pages. We can include logic such as loops and conditionals to create flexible and reusable designs in Django Templates.
