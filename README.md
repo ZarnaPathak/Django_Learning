@@ -38,3 +38,10 @@
 
 ## Django Templates
   It is used to return HTML content to the user. These are the files that used to define web pages and structure in a Django aaplication. It allow us to insert dynamic content (like data from   the database) into HTML pages. We can include logic such as loops and conditionals to create flexible and reusable designs in Django Templates.
+
+## Django Data Models
+  In Django, models are Python classes that define the structure of our database tables. Each model maps to a table, and each attribute represents a field in that table.  **models.py** is the   file where we define the data structure of our application using Python classes. These models allow us to interact with our database using Django's ORM- Object-Relational Mapping. It 
+  translates Python classes and their attributes into database tables and fields, enabling us to perform database operations (like creating, reading, updating, and deleting records)
+
+  ![image](https://github.com/ZarnaPathak/Django_Learning/assets/112220757/bae2c28c-b984-4a6b-ba45-46d0f83e3d37)
+
